@@ -5,5 +5,5 @@ fn main() {
 }
 fn mul_sum<T: Mul + Add + Copy>(a: T, b: T) -> (<T as Add>::Output, <T as Mul>::Output) {
 
-    return (a + b, a * b);
+    (a + b, a * b)
 }
