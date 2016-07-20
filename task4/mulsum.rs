@@ -1,4 +1,5 @@
 use std::ops::{Add, Mul};
+
 fn main() {
     println!("{:?}", mul_sum(4, 5));
 }
